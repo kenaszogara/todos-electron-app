@@ -31,3 +31,14 @@
     transform: rotate(360deg);
   }
 }
+
+input{
+  margin: 0.5rem;
+}
+
+li{
+  list-style-type: none;
+  width: 75%;
+  text-align: left;
+  margin-left: 15%
+}
