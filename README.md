@@ -10,10 +10,12 @@ I create this repo for myself, since I tends to forget how-i-do-stuff easily.
 Make sure your environment has NodeJS installed...
 JUST INCASE I FORGOT HOW TO INSTALL NODE, AND I'M LAZY TO SEARCH IT UP
 
-* WindowsOS: [download](https://nodejs.org) and install
+### WindowsOS: 
+* Link here: [download](https://nodejs.org) 
+* then install
 
-* Ubuntu or other UNIX sys.
-open terminal
+### Ubuntu:
+open terminal and install node
 ```
 $ sudo apt update
 $ sudo apt install nodejs
@@ -26,23 +28,16 @@ $ nodejs --version
 Output
 vX.X.X
 ```
-
-Then clone this repo or download it..
-change directory to the cloned/downloaded directory
-open terminal and install package dependencies using:
+Clone this repo and install the packages dependencies
 ```
 $ npm install
 ```
-Then run the app using:
+Run the app using:
 ```
 $ npm run dev
 ```
 
-EZPZ!
-
-
-
-## How To (JUST IN CASE I ALSO FORGOT HOW TO SETUP REACT/ELECTRON)
+## (JUST IN CASE I FORGOT HOW TO SETUP REACT/ELECTRON)
 ### 1. Setup ReactJS
 ```
 $ npm install -g create-react-app
